@@ -1,7 +1,7 @@
 git config push.default tracking
 git config branch.autosetuprebase always
 
-which git-flow 2>/dev/null
+git flow version
 has_it=$?
 if [ ${has_it} -gt 0 ];then
   echo "************************************"
